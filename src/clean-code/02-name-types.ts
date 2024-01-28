@@ -35,17 +35,17 @@
     }
 
     // obtiene libros desde un URL
-    function BooksUrl( u: string) {
+    function getBooksByUrl( url: string) {
         throw new Error('Function not implemented.');
     }
     
     // obtiene el área de un cuadrado basado en sus lados
-    function areaCuadrado( s: number ) {
+    function getSquareArea( side: number ) {
         throw new Error('Function not implemented.');
     }
 
     // imprime el trabajo
-    function printJobIfJobIsActive() {
+    function printJob() {
         throw new Error('Function not implemented.');
     }
     
